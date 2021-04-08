@@ -1,0 +1,51 @@
+*{
+    border: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    background-image: url(./stardewbackground.png);
+    background-size: cover;
+}
+header{
+    text-align: center;
+}
+main{
+    text-align: center;
+    margin: 10px 15px;
+    padding: 50px 0;
+    background-color: rgba(127, 255, 212, 0.281);
+}
+table{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    border-collapse: collapse;
+}   
+table tr, table th{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 8px;
+}
+table tr:nth-child(1){
+    text-align: center;
+    background-color: rgb(36, 153, 0);
+}
+.t_name{
+    width:20%;
+}
+.t_info{
+    width:70%;
+}
+.t_down{
+    width: 10%;
+}
+.h_1{
+    text-align: right;
+    margin-right: 50px;
+}
+.h_1 a{
+    color: black;
+    margin: 0 15px;
+    font-size: 20px;
+    text-decoration:none;
+}
